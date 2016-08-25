@@ -4,7 +4,7 @@ A simple application of python package mechanize.
 
 Automatically use paybyphone to pay parking fee and support refeeding meters.
 
-Note that this program is only for educational purpose. Don't use it for any other purpose. And any responsibility or consequence caused by usage of this program is undertook by user. If you don't accept this term, then don't use this program.
+**Note that this program is only for educational purpose. Don't use it for any other purpose. And any responsibility or consequence caused by usage of this program is undertook by user. If you don't accept this term, then don't use this program.**
 
 ## INSTALLATION
 
@@ -22,10 +22,10 @@ python paybyphone.py locationNum startCard{0,1} targetTimeHour targetTimeMin [ne
 ```
 
 Options:
-    `locationNum`: The location number of the meter
-    `startCard`: Which account to first to use (start from 0)
-    `targetTimeHour`, `targetTimeMin`: Target time to park til, e.g. [17, 00]: park until 5 p.m.
-    `nextTimeHour`, `nextTimeMin`: Next payment start time
+* `locationNum`: The location number of the meter
+* `startCard`: Which account to first to use (start from 0)
+* `targetTimeHour`, `targetTimeMin`: Target time to park til, e.g. [17, 00]: park until 5 p.m.
+* `nextTimeHour`, `nextTimeMin`: Next payment start time
 
 Example:
 ```sh
