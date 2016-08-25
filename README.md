@@ -16,7 +16,7 @@ Automatically use paybyphone to pay parking fee and support refeeding meters.
 
 
 
-Usage:
+## Usage:
 ```sh
 python paybyphone.py locationNum startCard{0,1} targetTimeHour targetTimeMin [nextTimeHour nextTimeMin]
 ```
